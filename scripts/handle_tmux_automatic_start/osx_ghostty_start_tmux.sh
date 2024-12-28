@@ -31,7 +31,7 @@ resize_window_to_full_screen() {
 			end tell
 
 			set position of front window of process "ghostty" to {0, 0}
-			set size of front window of process "alacritty" to {item 3 of desktopSize, item 4 of desktopSize}
+			set size of front window of process "ghostty" to {item 3 of desktopSize, item 4 of desktopSize}
 		end tell
 	end tell
 	EOF
